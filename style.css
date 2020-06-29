@@ -19,6 +19,7 @@ body {
     border: 2px solid var(--text-color);
     border-radius: 25px;
     padding: 16px;
+    animation: pulse 3s infinite;
 }
 
 .button {
@@ -31,21 +32,14 @@ body {
     outline: none;
     border: none;
     letter-spacing: 2px;
+    margin: 10px 0px 10px 0px;
 }
-
-.element {
-    position: fixed;
-    width: 100vh;
-    height: 30vh;
-    animation: pulse 5s infinite;
-    z-index: -1;
-  }
   
   @keyframes pulse {
     0% {
-        background: tomato;
+        border: 10px solid #FF9A62;
     }
     100% {
-        color: #333333;
-    }
+        border: 10px solid #8DD3D3;
   }
+}
