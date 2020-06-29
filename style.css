@@ -32,3 +32,20 @@ body {
     border: none;
     letter-spacing: 2px;
 }
+
+.element {
+    position: fixed;
+    width: 100vh;
+    height: 30vh;
+    animation: pulse 5s infinite;
+    z-index: -1;
+  }
+  
+  @keyframes pulse {
+    0% {
+        background: tomato;
+    }
+    100% {
+        color: #333333;
+    }
+  }
