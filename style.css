@@ -30,7 +30,7 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     outline: none;
-    border: none;
+    border: 2px solid lightgray;
     letter-spacing: 2px;
     margin: 10px 0px 10px 0px;
 }
